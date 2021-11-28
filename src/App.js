@@ -7,6 +7,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Starred from "./pages/Starred";
 
+import "./index.css";
 function App() {
   return (
     <Switch>
