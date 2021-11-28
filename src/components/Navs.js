@@ -10,8 +10,8 @@ const Navs = () => {
   return (
     <div>
       <ul>
-        {LINKS.map((item) => (
-          <li>
+        {LINKS.map((item, idx) => (
+          <li key={idx}>
             <Link to={item.to}>{item.text}</Link>
           </li>
         ))}
